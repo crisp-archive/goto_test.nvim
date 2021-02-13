@@ -29,10 +29,11 @@ local function goto_test()
         -- not even a `.go file
         return
     end
+    print(new_fn)
 
     api.nvim_command('edit' .. new_fn)
 end
 
 return {
-    gototest = goto_test
+    goto_test = goto_test
 }
