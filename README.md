@@ -15,6 +15,6 @@ Plug 'crispgm/goto_test.nvim'
 Default mapping:
 
 ```vim
-nnoremap <leader>G <cmd>lua require'gototest'.gototest()<cr>
+nnoremap <leader>G <cmd>lua require'goto_test'.goto_test()<cr>
 ```
 
